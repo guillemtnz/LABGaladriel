@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4ECE1"
+    android:fitsSystemWindows="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTituloAudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Los Cantos de Beleriand"
+        android:textColor="#2C3E50"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnPlayAudio"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#8E44AD"
+        android:text="Tocar el Laúd" />
+
+    <Button
+        android:id="@+id/btnPauseAudio"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7F8C8D"
+        android:text="Pausar Canto" />
+
+</LinearLayout>

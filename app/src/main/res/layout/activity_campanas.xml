@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B2B33"
+    android:fitsSystemWindows="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTituloCampanas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="Las Campanas de Minas Tirith"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnTocarAlarma"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#C0392B"
+        android:text="Tocar Alarma" />
+
+    <Button
+        android:id="@+id/btnDetenerAlarma"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#7F8C8D"
+        android:text="Detener Alarma" />
+
+    <Button
+        android:id="@+id/btnReiniciarAlarma"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E67E22"
+        android:text="Reiniciar Alarma" />
+
+</LinearLayout>
